@@ -1,5 +1,7 @@
 package 栈;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class _20_有效的括号 {
@@ -12,6 +14,7 @@ public class _20_有效的括号 {
 		}
 		return s.isEmpty();
     }
+	
 	
 	// 方法2
 	/**
@@ -27,7 +30,7 @@ public class _20_有效的括号 {
 	 *			栈非空：无效
 	 */
 
-	public static boolean isValid(String s) {
+	public boolean isValid(String s) {
 		Stack<Character> stack = new Stack<>();
 		int len = s.length();
 		for (int i = 0; i < len; i++) {
@@ -45,11 +48,8 @@ public class _20_有效的括号 {
 				}
 			}
 		}
-		
 		return stack.isEmpty();
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(isValid("[]][]{}()"));
-	}
+	 
 }

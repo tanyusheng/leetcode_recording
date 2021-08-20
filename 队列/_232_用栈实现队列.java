@@ -16,8 +16,8 @@ public class _232_用栈实现队列 {
 		System.out.println(queue.peek());
 	}
 	
-	Stack<Integer> inStack;
-	Stack<Integer> outStack;
+	private Stack<Integer> inStack;
+	private Stack<Integer> outStack;
 	/** Initialize your data structure here. */
     public _232_用栈实现队列() {
     	inStack = new Stack<>();

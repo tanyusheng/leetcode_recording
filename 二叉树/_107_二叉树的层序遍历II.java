@@ -1,14 +1,14 @@
 package 二叉树;
 /**
- * https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
- * 二叉树的层序遍历
+ * https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/
+ * 二叉树的层序遍历||
  */
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class _102_二叉树的层序遍历 {
+public class _107_二叉树的层序遍历II {
 	public class TreeNode{
 		int val;
 		TreeNode left;
@@ -32,9 +32,9 @@ public class _102_二叉树的层序遍历 {
 	 * @param root
 	 * @return
 	 */
-	public List<List<Integer>> levelOrder(TreeNode root) {
-		// 定义一个保存结果的二维数组
-        List<List<Integer>> res = new ArrayList<>();
+	public List<List<Integer>> levelOrderBottom(TreeNode root) {
+		// 定义一个保存结果的数组链表
+        LinkedList<List<Integer>> res = new LinkedList<>();
         if(root == null){
             return res;
         }
@@ -55,9 +55,10 @@ public class _102_二叉树的层序遍历 {
     			}
                 count--;
         	}
-            res.add(list);
+            res.addFirst(list);//为了反转链表，每次在尾部插入即可
         }
         return res;
+        
     }
 	
 }

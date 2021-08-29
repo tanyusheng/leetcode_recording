@@ -1,4 +1,5 @@
 package 链表;
+import java.util.*;
 /**
  * https://leetcode-cn.com/problems/palindrome-linked-list/
  * @author swift
@@ -7,6 +8,7 @@ package 链表;
  *		  3.然后分别从头部和中间进行遍历比较，全部相同返回true,如果有不同返回false
  */
 public class _234_回文链表 {
+	
 	public boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null) {
         	return true;

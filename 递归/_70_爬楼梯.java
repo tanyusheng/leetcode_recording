@@ -1,7 +1,7 @@
 package 递归;
 
 import java.util.Scanner;
-public class 爬楼梯 {
+public class _70_爬楼梯 {
 	public static void main(String[] args) {
 		Scanner cin = new Scanner(System.in);
 		while(cin.hasNext()) {

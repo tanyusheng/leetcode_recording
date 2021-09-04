@@ -12,8 +12,8 @@ public class _52_N皇后II {
 		}
 	}
 	
-	int ways; // 定义方法数
-	int[] cols; // 存储皇后的位置：数组索引是行号，数组元素是列号
+	int ways; // 摆法的种类数
+	int[] cols; // 存储皇后的位置：数组索引代表摆放位置行号，数组元素表示摆放位置的列号
 	
 	int totalNQueens(int n) {
 		if(n<1) return 0;

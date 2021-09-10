@@ -8,21 +8,29 @@ import java.util.Scanner;
 import java.util.spi.LocaleNameProvider;
 
 public class _189_旋转数组 {
-	public static int[] rotate(int[] nums, int k) {
-		k %= nums.length;
-		int[] result = new int[nums.length];
-		for (int i = 0; i < result.length; i++) {
-			result[i] = nums[(i+k+1)%nums.length];
+	public void rotate(int[] nums, int k) {
+		if(k==0) {
+			return;
 		}
-		return result;		
+		k %= nums.length;
+		int left = 0;
+		int right = nums.length-1;
+		reverse(nums,left,right);
+		reverse(nums, left, k-1);	
+		reverse(nums, k, right);
     }
 	
-	private void swap(int[] nums,int a,int b) {
-		int temp;
-		temp = nums[b];
-		nums[b] = nums[a];
-		nums[a] = temp;
+	// 反转数组
+	private void reverse(int[] nums,int left,int right) {
+		while(left<right) {
+			int temp = nums[right];
+			nums[right] = nums[left];
+			nums[left] = temp;
+			right--;
+			left++;
+		}
 	}
+	
 	
 	public static void main(String[] args) {
 		Scanner cinScanner = new Scanner(System.in);
@@ -34,10 +42,11 @@ public class _189_旋转数组 {
 				nums[i] = Integer.parseInt(strs[i]);
 			}
 			int k = cinScanner.nextInt();
-			int[] result = rotate(nums, k);
-			for (int i = 0; i < result.length; i++) {
-				System.out.print(result[i]);
+			new _189_旋转数组().rotate(nums, k);
+			for (int i = 0; i < nums.length-1; i++) {
+				System.out.print(nums[i]+",");
 			}
+			System.out.println(nums[nums.length-1]);
 		}
 	}
 }

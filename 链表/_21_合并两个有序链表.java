@@ -1,12 +1,11 @@
 package 链表;
 
-import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
  * https://leetcode-cn.com/problems/merge-two-sorted-lists/
  * @author swift
- *
+ *	思路：递归法
  */
 public class _21_合并两个有序链表 {
 	public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {

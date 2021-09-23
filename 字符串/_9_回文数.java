@@ -7,7 +7,7 @@ public class _9_回文数 {
 		Scanner cinScanner = new Scanner(System.in);
 		while(cinScanner.hasNext()) {
 			int n = cinScanner.nextInt();
-			System.out.println(isPalindrome(n));
+			System.out.println(isPalindrome1(n));
 		}
 		
 	}
@@ -29,5 +29,12 @@ public class _9_回文数 {
 			}
 		}
 		return true;
+	}
+	public static boolean isPalindrome1(int x) {
+		
+		// 把整数转为字符串
+		String str = x+"";
+		String reverString = (new StringBuilder(x+"").reverse().toString());
+		return str.equals(reverString);
 	}
 }

@@ -11,7 +11,7 @@ import 链表.ListNode;
  * @author swift
  *
  */
-public class _46_全排列 {
+public class _46_全排列 { 
 	List<List<Integer>> res = new LinkedList<>();
 	public List<List<Integer>> permute(int[] nums) {
 		// 记录路径

@@ -1,6 +1,6 @@
 package 双指针;
 
-import java.awt.geom.CubicCurve2D;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -19,30 +19,30 @@ public class _283_移动零 {
 				nums[i] = Integer.parseInt(strs[i]);
 			}
 			moveZeroes(nums);
-			for (int i = 0; i < nums.length-1; i++) {
-				System.out.print(nums[i]+",");
-			}
-			System.out.println(nums[nums.length-1]);
+			System.out.println(Arrays.toString(nums));
 			
 		}
 	}
 	public static void moveZeroes(int[] nums) {
-		if(nums.length<=1) {
-			return;
-		}
-		// 存储要覆盖的位置
-		int index = 0;
-		for (int i = 0; i < nums.length; i++) {
-			if(nums[i]!=0) {
-				nums[index]=nums[i];
-				index++;
-			}
-		}
-		for (int i = index; i < nums.length; i++) {
-			nums[i] = 0;
-		}
-		
-		
-	}
+        if(nums.length == 0){
+            return;
+        }
+        int pos = 0;
+        int search = 0;
+        int countZero = 0;
+        while(pos<nums.length && search<nums.length){
+            if(nums[search]==0){
+                search++;
+                countZero++;
+            }else{
+                nums[pos] = nums[search];
+                pos++;
+                search++;
+            }
+        }
+        for(int i=nums.length-1;i>=nums.length-countZero;i--){
+            nums[i] = 0;
+        }
+    }
 	
 }

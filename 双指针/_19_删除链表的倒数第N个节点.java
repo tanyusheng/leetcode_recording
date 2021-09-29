@@ -4,6 +4,7 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/submissions/
  * @author swift
+ * 
  *	思路:使用双指针法，为了指到倒数第n个节点，我们让快指针先走n步
  *	然后快慢指针都每次走一步，当快指针走到终点时，慢指针指向的便是待删除节点的上一个节点。
  */

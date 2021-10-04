@@ -34,7 +34,7 @@ public class _733_图像渲染 {
 			int r = cin.nextInt();
 			int c = cin.nextInt();
 			int[][] matrix = new int[r][c];
-			cin.nextLine(); // 跳过行列后的换行符
+			cin.nextLine(); // 跳过行数和列数后的换行符
 			for(int i=0;i<r;i++) {
 				for (int j = 0; j < c; j++) {
 					matrix[i][j] = cin.nextInt();

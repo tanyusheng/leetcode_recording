@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-import javax.swing.RootPaneContainer;
 
 /**
  * https://leetcode-cn.com/problems/merge-two-binary-trees/

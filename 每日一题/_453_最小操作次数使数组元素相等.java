@@ -13,35 +13,35 @@ public class _453_最小操作次数使数组元素相等 {
 		if(nums.length == 1) {
 			return 0;
 		}
-		int step = 0;
-		while(!isEval(nums)) {
-			int max = findMax(nums);
-			nums[max]--;
-			step++;
+		int min = findMin(nums);
+		int sum = 0;
+		for(int i : nums) {
+			sum += i;
 		}
-		return step;
+		return sum - min*nums.length;
+		
     }
 	
-	// 判断数组中的元素是否都相等
-	private static boolean isEval(int[] nums) {
-		int flag = nums[0];
-		for(int i = 1; i< nums.length;i++) {
-			if(flag != nums[i]) {
-				return false;
+//	// 判断数组中的元素是否都相等
+//	private static boolean isEval(int[] nums) {
+//		int flag = nums[0];
+//		for(int i = 1; i< nums.length;i++) {
+//			if(flag != nums[i]) {
+//				return false;
+//			}
+//		}
+//		return true;
+//	}
+//	
+	// 判断数组中元素的最小值
+	private static int findMin(int[] nums) {
+		int min = nums[0];
+		for(int i = 1; i < nums.length;i++) {
+			if(nums[i]<min) {
+				min = nums[i];
 			}
 		}
-		return true;
-	}
-	
-	// 判断数组中元素的最大值的下标
-	private static int findMax(int[] nums) {
-		int max = 0;
-		for(int i = 1;i < nums.length; i++) {
-			if(nums[i] > nums[max]) {
-				max = i;
-			}
-		}
-		return max;
+		return min;
 	}
 	
 	public static void main(String[] args) {

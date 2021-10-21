@@ -6,7 +6,9 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/plus-one/
  * @author swift
- *	思路：把数组转为数值，加一，再转为数组
+ *	思路一：把数组转为数值，加一，再转为数组，但是部分测试用例会导致整型溢出；
+ *	思路二：直接判断最后一个数字，如果为9则直接设置为0，否则直接加1，如果所有的数字都是9，
+ *			则直接新建一个数组，第一个位置设为1，直接返回该数组即可。
  */
 public class _66_加一 {
 	public static int[] plusOne(int[] digits) {

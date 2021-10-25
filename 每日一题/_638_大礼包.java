@@ -12,4 +12,7 @@ public class _638_大礼包 {
 		
 		return 0;
     }
+	public static void main(String[] args) {
+		
+	}
 }

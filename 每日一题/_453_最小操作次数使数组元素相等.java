@@ -1,6 +1,5 @@
 package 每日一题;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -22,17 +21,6 @@ public class _453_最小操作次数使数组元素相等 {
 		
     }
 	
-//	// 判断数组中的元素是否都相等
-//	private static boolean isEval(int[] nums) {
-//		int flag = nums[0];
-//		for(int i = 1; i< nums.length;i++) {
-//			if(flag != nums[i]) {
-//				return false;
-//			}
-//		}
-//		return true;
-//	}
-//	
 	// 判断数组中元素的最小值
 	private static int findMin(int[] nums) {
 		int min = nums[0];

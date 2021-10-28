@@ -7,7 +7,7 @@ import java.util.Scanner;
  * https://leetcode-cn.com/problems/next-greater-element-i/
  * @author swift
  *	思路：暴力法
- *		还有单调栈，后续完善
+ *		还有单调栈法，后续完善
  */
 public class _496_下一个更大元素 {
 	public static int[] nextGreaterElement(int[] nums1, int[] nums2) {

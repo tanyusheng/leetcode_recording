@@ -7,9 +7,9 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/reordered-power-of-2/
  * @author swift
- * 思路：将数值转为字符串再转为字符数组，调用Arrays.sort()对字符数组进行排序；
+ * ·思路一：将数值转为字符串再转为字符数组，调用Arrays.sort()对字符数组进行排序；
  * 然后将每个2的幂进行同样操作，然后通过Arrays.equals(A,B)判断两个字符数组是否相等即可。
- *
+ *	思路二：暴力回溯然后通过位运算判断是否是2的幂。
  */
 public class _869_重新排序得到2的幂 {
 	public static boolean reorderedPowerOf2(int n) {

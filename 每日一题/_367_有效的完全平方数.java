@@ -12,6 +12,11 @@ public class _367_有效的完全平方数 {
 		int res =(int) Math.sqrt(num);
         return res*res == num;
     }
+	public static boolean isPerfectSquare2(int num) {
+		int res =(int) Math.sqrt(num);
+        return res*res == num;
+    }
+	
 	
 	public static void main(String[] args) {
 		Scanner cinScanner = new Scanner(System.in);

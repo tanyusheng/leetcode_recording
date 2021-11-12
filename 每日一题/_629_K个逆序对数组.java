@@ -8,7 +8,8 @@ import java.util.Scanner;
  *	思路：我猜用的是动态规划，但是这题真不会写！
  */
 public class _629_K个逆序对数组 {
-	public int kInversePairs(int n, int k) {
+	public static int kInversePairs(int n, int k) {
+		
 		
 		return 0;
     }
@@ -19,6 +20,7 @@ public class _629_K个逆序对数组 {
 		while(scanner.hasNext()) {
 			int n = scanner.nextInt();
 			int k = scanner.nextInt();
+			
 		}
 	}
 }

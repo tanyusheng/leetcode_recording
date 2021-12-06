@@ -5,19 +5,20 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/super-pow/
  * @author swift
- *
+ *	思路：快速幂
  */
 public class _372_超级次方 {
+	// 不会做
 	public static int superPow(int a, int[] b) {
 		long bNum = 0;
 		int res = 0;
-		for(int i = 0; i < b.length; i++) {
-			
-			bNum += (int)Math.pow(10, i)*b[b.length-1-i];
-		}
-		System.out.println("bNum="+bNum);
-		res = (int)((long)Math.pow(a, bNum) % 1337);
-		return res;
+//		for(int i = 0; i < b.length; i++) {
+//			
+//			bNum += (int)Math.pow(10, i)*b[b.length-1-i];
+//		}
+//		System.out.println("bNum="+bNum);
+//		res = (int)((int)Math.pow(a, bNum) % 1337);
+		return res; 
     }
 	
 	public static void main(String[] args) {

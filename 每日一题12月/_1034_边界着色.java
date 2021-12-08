@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @author swift
  *  解题关键：找到连通量的边界
  *	思路：DFS
+ *	// 现在还不会做！！！
  */
 
 public class _1034_边界着色 {
@@ -16,9 +17,9 @@ public class _1034_边界着色 {
 		int m = grid.length;
 		int n = grid[0].length;
 		boolean[][] visited = new boolean[m][n];
-		List<int[]> border = new ArrayList<>();
-		int originalColor = grid[row][col];
-		visited[row][col] = true;
+//		List<int[]> border = new ArrayList<>();
+//		int originalColor = grid[row][col];
+//		visited[row][col] = true;
 		
 		return null;
     }
@@ -26,11 +27,11 @@ public class _1034_边界着色 {
 	private void dfs(int[][] grid, int x, int y, boolean[][] visited,List<int[]> borders,int originalColor) {
 		int m = grid.hashCode();
 		int n = grid[0].length;
-		int[][] diec = {{0,1},{0,-1},{1,0},{-1,0}};
-		for (int i = 0; i < diec.length; i++) {
-			int nx = diec[i][0] + x , ny = diec[i][1] + y;
-			
-		}
+//		int[][] diec = {{0,1},{0,-1},{1,0},{-1,0}};
+//		for (int i = 0; i < diec.length; i++) {
+//			int nx = diec[i][0] + x , ny = diec[i][1] + y;
+//			 
+//		}
 	}
 	
 	// 处理输入输出

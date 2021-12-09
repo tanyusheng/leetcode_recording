@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
  * @author swift
+ * 	动态规划
  *	// 这题不会做！！！
  */
 public class _689_三个无重叠子数组的最大和 {

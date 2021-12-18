@@ -4,7 +4,8 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/loud-and-rich/
  * @author swift
- *  实习，LeetCode鸽了，鸽了
+ *  实习，LeetCode鸽了，鸽了，鸽了
+ *  
  *
  */
 public class _851_喧闹与富有 {

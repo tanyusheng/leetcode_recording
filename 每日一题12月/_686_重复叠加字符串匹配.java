@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/repeated-string-match/
  * @author swift
- * 
+ * 鸽~
  * 
  */
 public class _686_重复叠加字符串匹配 {

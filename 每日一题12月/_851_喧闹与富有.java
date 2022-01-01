@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/loud-and-rich/
  * @author swift
- *  实习==========
+ *  实习===========
  *  
  *
  */

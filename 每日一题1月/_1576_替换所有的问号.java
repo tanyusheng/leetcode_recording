@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
  * @author swift
- *
+ *	实习，懒得写~
  */
 public class _1576_替换所有的问号 {
 	public static String modifyString(String s) {

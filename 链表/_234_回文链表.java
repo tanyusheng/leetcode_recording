@@ -1,5 +1,5 @@
 package 链表;
-import java.util.*;
+
 /**
  * https://leetcode-cn.com/problems/palindrome-linked-list/
  * @author swift

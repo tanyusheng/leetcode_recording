@@ -26,5 +26,6 @@ public class _203_移除链表元素 {
 			b = cin.nextInt();
 			System.out.println(a+b);
 		}
+		cin.close();
 	}
 }

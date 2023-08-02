@@ -37,5 +37,6 @@ public class _66_加一 {
 			int[] result = plusOne(nums);
 			System.out.println(Arrays.toString(result));
 		}
+		cinScanner.close();
 	}
 }

@@ -40,5 +40,6 @@ public class _594_最长和谐子序列 {
 			
 			System.out.println(findLHS(nums));
 		}
+		cinScanner.close();
 	}	
 }

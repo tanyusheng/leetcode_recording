@@ -29,5 +29,6 @@ public class _689_三个无重叠子数组的最大和 {
 			System.out.println(Arrays.toString(nums));
 			System.out.println("k="+k);
 		}
+		cinScanner.close();
 	}
 }

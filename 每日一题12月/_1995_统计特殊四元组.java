@@ -1,6 +1,6 @@
 package 每日一题12月;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 /**
@@ -38,5 +38,6 @@ public class _1995_统计特殊四元组 {
 			int res = countQuadruplets(nums);
 			System.out.println(res);
 		}
+		cinScanner.close();
 	}
 }

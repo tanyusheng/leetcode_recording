@@ -57,5 +57,6 @@ public class _695_岛屿的最大面积 {
 			int result = maxAreaOfIsland(matrix);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 }

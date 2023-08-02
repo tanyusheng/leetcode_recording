@@ -10,6 +10,7 @@ public class _151_翻转字符串里的单词 {
 			String resultString = reverseWords(str);
 			System.out.println(resultString);
 		}
+		cinScanner.close();
 	}
 	public static String reverseWords(String s) {
 		String[] strs = s.trim().split("\\s+");

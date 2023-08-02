@@ -25,5 +25,6 @@ public class _709_转换成小写字母 {
 			String reString = toLowerCase(string);
 			System.out.println(reString);
 		}
+		cinScanner.close();
 	}
 }

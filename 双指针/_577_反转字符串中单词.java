@@ -15,6 +15,7 @@ public class _577_反转字符串中单词 {
 			String result = new _577_反转字符串中单词().reverse(string);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 	public String reverseWords(String s) {
 		// 原始字符串数组

@@ -21,6 +21,7 @@ public class _704_二分查找 {
 			int result = search(nums, target);
 			System.out.println(result);
 		}
+		cin.close();
 	}
 	public static int search(int[] nums,int target) {
 		int left = 0;

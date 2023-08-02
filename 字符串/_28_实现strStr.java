@@ -16,6 +16,7 @@ public class _28_实现strStr {
 			int result = strStr(haystackString, needleString);
 			System.out.println(result);
 		}
+		cin.close();
 	}
 	public static int strStr(String haystack, String needle) {
 		if (needle.length()==0) {

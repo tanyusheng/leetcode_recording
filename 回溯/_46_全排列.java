@@ -50,5 +50,6 @@ public class _46_全排列 {
 				System.out.println(list);
 			}
 		}
+		cinScanner.close();
 	}
 }

@@ -54,5 +54,6 @@ public class _944_腐烂的橘子 {
 			int result = new _944_腐烂的橘子().orangesRotting(grid);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 }

@@ -35,5 +35,6 @@ public class _372_超级次方 {
 			int res = superPow(a, b);
 			System.out.println(res);
 		}
+		cinScanner.close();
 	}
 }

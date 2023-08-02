@@ -58,6 +58,7 @@ public class _166_分数到小数 {
 			int d = cin.nextInt();
 			System.out.println(fractionToDecimal(n, d));
 		}
+		cin.close();
 		
 	}
 }

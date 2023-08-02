@@ -54,5 +54,6 @@ public class _748_最短补全词 {
 			System.out.println(res);
 			// step,steps,stripe,stepple
 		}
+		cinScanner.close();
 	}
 }

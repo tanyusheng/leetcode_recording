@@ -24,5 +24,6 @@ public class _458_可怜的小猪 {
 			int minutesToTest = cinScanner.nextInt();
 			System.out.println(poorPigs(buckets, minutesToDie, minutesToTest));
 		}
+		cinScanner.close();
 	}
 }

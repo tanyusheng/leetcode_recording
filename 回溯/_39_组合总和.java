@@ -27,6 +27,7 @@ public class _39_组合总和 {
 			res = combinationSum(nums, target);
 			System.out.println(res.toString());
 		}
+		cinScanner.close();
 	}
 	
 	public static List<List<Integer>> combinationSum(int[] candidates, int target) {

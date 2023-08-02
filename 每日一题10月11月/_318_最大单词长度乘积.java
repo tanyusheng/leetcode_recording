@@ -36,5 +36,6 @@ public class _318_最大单词长度乘积 {
 			String[] strs = str.split(",");
 			System.out.println(maxProduct(strs));
 		}
+		cinScanner.close();
 	}
 }

@@ -48,5 +48,6 @@ public class _189_旋转数组 {
 			}
 			System.out.println(nums[nums.length-1]);
 		}
+		cinScanner.close();
 	}
 }

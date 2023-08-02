@@ -92,5 +92,6 @@ public class _876_链表的中间节点 {
 				ListNode resultNode = middleNode(listNode);
 				printNode(resultNode);
 			}
+			cin.close();
 		}
 }

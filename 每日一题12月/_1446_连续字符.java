@@ -30,5 +30,6 @@ public class _1446_连续字符 {
 			int res = maxPower(s);
 			System.out.println(res);
 		}
+		cinScanner.close();
 	}
 }

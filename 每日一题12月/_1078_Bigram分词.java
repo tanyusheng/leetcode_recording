@@ -30,6 +30,7 @@ public class _1078_Bigram分词 {
 			String[] res = findOcurrences(text, first, second);
 			System.out.println(Arrays.toString(res));;
 		}
+		cinScanner.close();
 	}
 }
 

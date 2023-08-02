@@ -44,6 +44,7 @@ public class _506_相对名次 {
             String[] result = findRelativeRanks(score);
             System.out.println(Arrays.toString(result));
         }
+        scanner.close();
     }
 }
 

@@ -39,5 +39,6 @@ public class _70_爬楼梯 {
 			int result = climbStairs(n);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 }

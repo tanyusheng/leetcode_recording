@@ -41,5 +41,6 @@ public class _441_排列硬币 {
 			int x = cinScanner.nextInt();
 			System.out.println(arrangeCoins(x));
 		}
+		cinScanner.close();
 	}
 }

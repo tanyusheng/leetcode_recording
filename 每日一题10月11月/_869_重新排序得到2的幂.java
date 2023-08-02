@@ -32,5 +32,6 @@ public class _869_重新排序得到2的幂 {
 			int n = scanner.nextInt();
 			System.out.println(reorderedPowerOf2(n));
 		}
+		scanner.close();
 	}
 }

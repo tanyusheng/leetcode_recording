@@ -46,5 +46,6 @@ public class _414_第三大的数 {
 			}
 			System.out.println(thirdMax(nums));
 		}
+		cinScanner.close();
 	}
 }

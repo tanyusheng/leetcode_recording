@@ -9,6 +9,7 @@ public class _9_回文数 {
 			int n = cinScanner.nextInt();
 			System.out.println(isPalindrome1(n));
 		}
+		cinScanner.close();
 		
 	}
 	public static boolean isPalindrome(int x) {

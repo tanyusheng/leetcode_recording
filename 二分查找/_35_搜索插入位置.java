@@ -21,6 +21,7 @@ public class _35_搜索插入位置 {
 			int result = searchInsert(nums, target);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 	public static int searchInsert(int[] nums, int target) {
 		int left = 0;

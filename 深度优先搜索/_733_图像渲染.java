@@ -47,5 +47,6 @@ public class _733_图像渲染 {
 			System.out.println(Arrays.deepToString(floodFill(matrix,sr,sc,newColor)));
 			
 		}
+		cin.close();
 	}
 }

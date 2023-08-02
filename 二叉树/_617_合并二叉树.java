@@ -86,5 +86,6 @@ public class _617_合并二叉树 {
 			TreeNode resulTreeNode = new _617_合并二叉树().mergeTrees(tree1, tree2);
 			levelOrderTraversal(resulTreeNode);
 		}
+		cinScanner.close();
 	}
 }

@@ -39,6 +39,7 @@ public class _187_重复的DNA序列 {
 			String string = cinScanner.next();
 			System.out.println(findRepeatedDnaSequences(string));
 		}
+		cinScanner.close();
 		
 	}
 }

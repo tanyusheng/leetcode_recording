@@ -54,5 +54,6 @@ public class _977_有序数组的平方 {
 			}
 			System.out.println(result[result.length-1]+"]");
 		}
+		cinScanner.close();
 	}
 }

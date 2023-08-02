@@ -53,5 +53,6 @@ public class _1034_边界着色 {
 			int[][] res = colorBorder(grid, row, col, color);
 			System.out.println(Arrays.deepToString(res));
 		}
+		cinScanner.close();
 	}
 }

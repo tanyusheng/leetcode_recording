@@ -38,5 +38,6 @@ public class _686_重复叠加字符串匹配 {
 			int res = repeatedStringMatch(a, b);
 			System.out.println(res);
 		}
+        cinScanner.close();
 	}
 }

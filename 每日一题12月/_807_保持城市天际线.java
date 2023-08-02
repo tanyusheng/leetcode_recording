@@ -28,6 +28,7 @@ public class _807_保持城市天际线 {
 			int res = maxIncreaseKeepingSkyline(grid);
 			System.out.println(res);
 		}
+		cinScanner.close();
 		
 	}
 }	

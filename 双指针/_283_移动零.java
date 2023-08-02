@@ -22,6 +22,7 @@ public class _283_移动零 {
 			System.out.println(Arrays.toString(nums));
 			
 		}
+        cinScanner.close();
 	}
 	public static void moveZeroes(int[] nums) {
         if(nums.length == 0){

@@ -52,5 +52,6 @@ public class _859_亲密字符串 {
 			String str2 = cScanner.next();
 			System.out.println(buddyStrings(str1, str2));
 		}
+		cScanner.close();
 	}
 }

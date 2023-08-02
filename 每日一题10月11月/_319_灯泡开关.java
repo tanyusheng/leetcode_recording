@@ -39,5 +39,6 @@ public class _319_灯泡开关 {
 			int n = cinScanner.nextInt();
 			System.out.println(bulbSwitch2(n));
 		}
+		cinScanner.close();
 	}
 }

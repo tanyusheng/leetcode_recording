@@ -2,7 +2,6 @@ package 队列;
 
 import java.util.Stack;
 
-import javax.naming.spi.DirStateFactory.Result;
 
 
 public class _232_用栈实现队列 {

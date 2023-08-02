@@ -49,5 +49,6 @@ public class _229_求众数 {
 			list = majorityElement(nums);
 			System.out.println(list);
 		}
+		cinScanner.close();
 	}
 }

@@ -66,5 +66,6 @@ public class _3_无重复字符的最长子串 {
 			int result = lengthOfLongestSubstring(str);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 }

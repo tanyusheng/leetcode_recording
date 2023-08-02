@@ -7,7 +7,8 @@ public class _70_爬楼梯 {
 		while(cin.hasNext()) {
 			int a = cin.nextInt();
 			System.out.println(climbStairs(a));
-		}	
+		}
+		cin.close();	
 	}
 	
 	public static int climbStairs(int n) {

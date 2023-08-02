@@ -25,6 +25,7 @@ public class _167_两数之和II输入有序数组 {
 			}
 			System.out.println("\n");
 		}
+		cinScanner.close();
 	}
 	public static int[] twoSum(int[] numbers, int target) {
 		int left = 0;

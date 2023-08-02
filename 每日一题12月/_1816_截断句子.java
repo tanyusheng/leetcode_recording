@@ -1,6 +1,6 @@
 package 每日一题12月;
 
-import java.sql.Array;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -30,5 +30,6 @@ public class _1816_截断句子 {
 			String resString = truncateSentence(s, k);
 			System.out.println(resString);
 		}
+		cinScanner.close();
 	}
 }

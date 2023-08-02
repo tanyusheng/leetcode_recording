@@ -26,5 +26,6 @@ public class _851_喧闹与富有 {
 				}
 			}
 		}
+		cinScanner.close();
 	}
 }

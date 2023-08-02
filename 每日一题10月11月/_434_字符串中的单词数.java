@@ -25,5 +25,6 @@ public class _434_字符串中的单词数 {
 			int count = new _434_字符串中的单词数().countSegments(str);
 			System.out.println(count);
 		}
+		cinScanner.close();
 	}
 }

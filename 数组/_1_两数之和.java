@@ -21,6 +21,7 @@ public class _1_两数之和 {
 			}
 			System.out.println("\n***danli is big super very beauty fighting***");
 		}
+		cinScanner.close();
 	}
 	public static int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];

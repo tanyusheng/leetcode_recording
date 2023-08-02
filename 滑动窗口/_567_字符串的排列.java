@@ -56,5 +56,6 @@ public class _567_字符串的排列 {
 			String s2 = cinScanner.next();
 			System.out.println(checkInclusion(s1, s2));
 		}
+		cinScanner.close();
 	}
 }

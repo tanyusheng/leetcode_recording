@@ -22,5 +22,6 @@ public class _629_K个逆序对数组 {
 			int k = scanner.nextInt();
 			
 		}
+		scanner.close();
 	}
 }

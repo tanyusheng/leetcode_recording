@@ -36,5 +36,6 @@ public class _383_赎金信 {
             boolean res = canConstruct(ransomNote,magazine);
             System.out.println(res);
         }
+        cin.close();
     }
 }

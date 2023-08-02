@@ -33,5 +33,6 @@ public class _231_2的幂 {
 			int n = cinScanner.nextInt();
 			System.out.println(isPowerOfTwo(n));
 		}
+		cinScanner.close();
 	}
 }

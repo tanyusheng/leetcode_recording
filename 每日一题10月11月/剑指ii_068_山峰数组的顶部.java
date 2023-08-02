@@ -48,5 +48,6 @@ public class 剑指ii_068_山峰数组的顶部 {
 			int result = peakIndexInMountainArray(nums);
 			System.out.println(result);
 		}
+		cinScanner.close();
 	}
 }

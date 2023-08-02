@@ -10,6 +10,7 @@ public class _52_N皇后II {
 			int num = cin.nextInt();
 			System.out.println(num+"皇后有"+new _52_N皇后II().totalNQueens(num)+"种摆法");
 		}
+		cin.close();
 	}
 	
 	int ways; // 摆法的种类数

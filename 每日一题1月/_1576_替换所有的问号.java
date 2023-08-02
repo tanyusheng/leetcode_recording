@@ -37,5 +37,6 @@ public class _1576_替换所有的问号 {
 			String res = modifyString(string);
 			System.out.println(res);
 		}
+        cinScanner.close();
 	}
 }

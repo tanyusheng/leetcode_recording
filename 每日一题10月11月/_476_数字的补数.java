@@ -29,5 +29,6 @@ public class _476_数字的补数 {
 			int num = cinScanner.nextInt();
 			System.out.println(findComplement(num));
 		}
+		cinScanner.close();
 	}
 }

@@ -94,6 +94,7 @@ public class _19_删除链表的倒数第N个节点 {
 		ListNode list = structNode(nums);
 		ListNode reslut = removeNthFromEnd(list, n);
 		printNode(reslut);
+		cin.close();
 		
 	}
 }

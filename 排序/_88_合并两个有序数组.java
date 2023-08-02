@@ -32,6 +32,7 @@ public class _88_合并两个有序数组 {
 			merge2(nums1, m, nums2, n);
 			System.out.println(Arrays.toString(nums1));
 		}
+		cinScanner.close();
 	}
 	
 	public static void merge(int[] nums1, int m, int[] nums2, int n) {

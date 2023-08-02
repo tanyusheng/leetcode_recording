@@ -66,6 +66,7 @@ public class _500_键盘行 {
 			String[] result = findWords(words);
 			System.out.println(Arrays.toString(result));
 		}
+		scanner.close();
 	}
 	
 }

@@ -34,8 +34,7 @@ public class _3_无重复字符的最长子串 {
 		return res;
 	}
 	
-	
-	public int lengthOfLongestSubstring2(String s) {
+	public static int lengthOfLongestSubstring2(String s) {
 		if(s.isEmpty()) {
 			return 0;
 		}
@@ -59,6 +58,21 @@ public class _3_无重复字符的最长子串 {
 		return max;
     }
 	
+	public static int lengthOfLongestSubstring3(String s){
+		if(s.length() == 0){
+			return 0;
+		}
+		// 定义左右指针，通过滑动可变长度的窗口实现
+		int left = 0;
+		int right = 0;
+		int maxLenghtSubString = 0;
+		while(left < s.length() && right < s.length()){
+
+		}
+
+
+		return 0;
+	}
 	public static void main(String[] args) {
 		Scanner cinScanner = new Scanner(System.in);
 		while(cinScanner.hasNext()) {

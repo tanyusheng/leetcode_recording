@@ -14,7 +14,7 @@ public class _jz24_反转链表 {
         }
         // 构造链表
         ListNode listNode = ListNode.array2LinkedList(arr);
-        ListNode.printListNode(reverseList(listNode));
+        ListNode.printListNode(reverseList2(listNode));
         scanner.close();
     }
 
@@ -28,5 +28,18 @@ public class _jz24_反转链表 {
         head.next.next = head;
         head.next = null;
         return current;
+    }
+
+    // 双指针法
+    public static ListNode reverseList2(ListNode head){
+        ListNode cur = head;
+        ListNode pre = null;
+        while(cur != null){
+            ListNode temp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
+        }
+        return pre;
     }
 }

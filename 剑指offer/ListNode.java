@@ -8,6 +8,16 @@ public class ListNode {
         val = x;
     }
 
+    //将输入的字符串转为整形数组
+    public static int[] parseArray(String input){
+        String[] parts = input.split(",");
+        int[] array = new int[parts.length];
+        for(int i = 0; i < parts.length; i++){
+            array[i] = Integer.parseInt(parts[i].trim());
+        }
+        return array;
+    }
+
     //将数组构造成链表
     public static ListNode array2LinkedList(int[] arr) {
         if (arr == null || arr.length == 0) {

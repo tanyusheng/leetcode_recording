@@ -9,8 +9,13 @@ public class test {
         Scanner cinScanner = new Scanner(System.in);
         while(cinScanner.hasNext()){
             int n = cinScanner.nextInt();
-            System.out.println(n);
+            System.out.println(test(n));
         }
         cinScanner.close();
+    }
+
+    public static int test(int a){
+
+        return (a >> 1);
     }
 }

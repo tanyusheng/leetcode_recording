@@ -1,6 +1,6 @@
 package 剑指offer;
 
-/**
+/*
  * url:https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof
  *
  */
@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class _jz32_从上到下打印二叉树 {
+public class _jz32_2_从上到下打印二叉树 {
     public static void main(String[] args) {
 
     }

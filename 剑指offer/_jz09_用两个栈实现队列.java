@@ -1,13 +1,13 @@
 package 剑指offer;
 import java.util.Stack;
 
-/**
+/*
  * 剑指 Offer 09. 用两个栈实现队列
  * https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
  * 注意事项：注意审题，当栈为空时，输出结果为-1
  * 
  */
-public class _09_用两个栈实现队列 {
+public class _jz09_用两个栈实现队列 {
     public static void main(String[] args) {
         
     }

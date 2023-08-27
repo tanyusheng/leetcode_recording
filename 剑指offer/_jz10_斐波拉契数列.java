@@ -7,7 +7,7 @@ package 剑指offer;
 
 import java.util.Scanner;
 
-public class _jz10_斐波拉契数列 {
+public class  _jz10_斐波拉契数列 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){

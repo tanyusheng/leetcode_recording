@@ -2,9 +2,10 @@ package 剑指offer;
 
 /*
  *  url:https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof
- *  思路：1. 在A树中找到与B树根节点值相同的节点P
- *              B树有的子节点，A树必须有；
- *              B树没有的子节点，A树可以有；
+ *  思路：在A树中找到与B树根节点值相同的节点P；
+ *       将P节点作为根节点看成P树，与B树进行比较
+ *           P树有的子节点，A树必须有；
+ *           P树没有的子节点，A树可以有；
  *
  */
 public class _jz26_树的子结构 {
@@ -12,37 +13,31 @@ public class _jz26_树的子结构 {
 
     }
 
-    /**
-     * 寻找相同根节点
-     * @param A A树
-     * @param B B树
-     * @return B树是否是A树的子结构
-     */
-
-    public boolean isSubStructure(TreeNode A, TreeNode B){
-        if(A == null || B == null){
+    // 寻找A树中的与B树根节点值相同的P节点
+    public boolean isSubStructure(TreeNode A, TreeNode B) {
+        // 题目规定空树不是任意一个树的子结构
+        if (A == null || B == null) {
             return false;
         }
-        if(A.val == B.val && isContain(A,B)){
+        // 根节值相同，说明找到P树了
+        if (A.val == B.val && isContain(A, B)) {
             return true;
         }
-        return isSubStructure(A.left,B) || isSubStructure(A.right,B);
+        // 通过递归找到A树里的P树
+        return isSubStructure(A.left, B) || isSubStructure(A.right, B);
     }
 
-    /**
-     * 功能：比较是否包含
-     * @param node1 A树的子结构
-     * @param node2 B树的子结构
-     * @return A树是否包含B树的所有节点
-     */
-    private boolean isContain(TreeNode node1, TreeNode node2){
-        //A树的子结构为空，B树不为空，说明A树不包含B树子结构
-        if(node1 == null && node2 != null){
+    // 检查P树是否包含B树
+    private boolean isContain(TreeNode P, TreeNode B) {
+        // P树有的节点，B树没有，直接说明B树不配做P树的子结构
+        if (P == null && B != null) {
             return false;
         }
-        if(node2 == null){
+        // P树可有可不有的节点，B树没有，那说明B树还是可以作为P树的子结构的
+        if (B == null) {
             return true;
         }
-      return node1.val == node2.val && isContain(node1.left,node2.left)&&isContain(node1.right,node2.right);
+        // P树根节点与B树相同，左右子树也相同，这些条件全部达到了，才能说P树包含了B树
+        return P.val == B.val && isContain(P.left, B.left) && isContain(P.right, B.right);
     }
 }
